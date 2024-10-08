@@ -1,9 +1,51 @@
 [
   {
-    "objectID": "index.html#who-i-am-professinoally",
-    "href": "index.html#who-i-am-professinoally",
+    "objectID": "index.html#who-i-am-professionally",
+    "href": "index.html#who-i-am-professionally",
     "title": "FOSS Tools for FOSS Development",
-    "section": "Who I Am Professinoally",
-    "text": "Who I Am Professinoally\n\n\n\nResearch Software Engineer, University of Sheffield (2½ years and counting)\nMSc - Genetic Epidemiology\nGenetic Statistician\nLead forOpen Scholarship\n\n[Open Scholarship Community Sheffield][oscs]\n[SheffieldR][sheffieldR]\n[ReproducibiliTea][reproducibilitea]\n\n\n\n\n\n\nSpeaker Notes can be added to each slide. Formatting can be used here too.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSlides : ns-rse.github.io/foss-tools-for-foss-dev\n\n\n\n\n\n\n\n \n\n\nQuarto RevealJS Template"
+    "section": "Who I Am Professionally",
+    "text": "Who I Am Professionally\n\n\n\nResearch Software Engineer, University of Sheffield (2½ years and counting)\nMSc - Genetic Epidemiology\nGenetic Statistician\nMedical Statistician\nTech Startup\n\n\n\nLead for…\n\nOpen Scholarship Community Sheffield\nSheffieldR User Group\nReproducibiliTea Journal Club\n\nRegular blogger\n\nblog.nshephard.dev\nrse.shef.ac.uk/blog\n\nOpen Research Champion\n\n\n\nHi, my name is Neil Shephard and I’m a Research Software Engineer at the University of Sheffield. I’ve had a varied career path to this point working in statistical genetics, medical statistics and a few years in a tech startup company before returning to my current role in academia.\nThroughout my career I’ve had a passion for open and reproducible research and Free Open Source Software, teaching myself and advocating for literate programming and version control of code and was delighted to find this aligned well with the goals and aims of Research Software Engineering.\nSince becoming an RSE I have undertaken a number of initiatives that advocate and encourage good practice in both coding and more broadly for open research.\nI’ve set up the Open Scholarship Community Sheffield and successfully relaunched the Sheffield R User Group which meets roughly once a month to discuss and share work using the R programming language. I’ve also got the local ReproducibiliTea Journal Club back up and running in Sheffield, which also meets monthly to discuss aspects of open research.\nI think its important to share what I’ve learnt and therefore blog regularly on technical issues and this has led me to giving talks at University of Leeds and RSE Midlands."
+  },
+  {
+    "objectID": "index.html#what-i-do-daily",
+    "href": "index.html#what-i-do-daily",
+    "title": "FOSS Tools for FOSS Development",
+    "section": "What I Do Daily?",
+    "text": "What I Do Daily?\n\n\n\nPython and R package development.\nTeach Git.\nDevelop training material.\nJOSS Reviews.\n\n\n\nProjects\n\nTopoStats (Open Research Prize 2023)\nPGfinder\nClarity Challenge\n\n\n\n\nTeaching\n\nCarpentries Instructor\nGit & GitHub through GitKraken - From Zero to Hero\nThe UNIX Shell\nGit Collaboration\n\n\n\n\nOn a day-to-day basis as an RSE I work on helping research teams develop maintainable and open software that strives to adhere to the FAIR for Research Software principle and my main project, TopoStats which is software for processing Atomic Force Microscopy images won the Universities Open Research Prize in 2023.\nI’ve undertaken The Carpentries Instructor Training and regularly deliver training on the basics of using Git to version control software and have delivered the Carpentries course on The UNIX Shell\nI really like the paedological style of The Carpentries and have developed an intermediary course on Git to follow on and give users a deeper understanding of Git.\nWith this in mind I spend a lot of time writing code and appreciate how important it is to have an effective development environment. I would like to take the opportunity that the SSI Fellowship affords to share my experience of development environments with others and support people in learning how to craft something that suits their needs."
+  },
+  {
+    "objectID": "index.html#fellowship-overview",
+    "href": "index.html#fellowship-overview",
+    "title": "FOSS Tools for FOSS Development",
+    "section": "Fellowship Overview",
+    "text": "Fellowship Overview\n\n\n\nTools/tooling &gt;&gt; productivity.\nEmacs as an IDE (Free Open Source Software).\nDevelop basic literate configuration.\nDevelop and deliver Carpentries style course.\n\n\n\n\n\nEmacs\n\n\n\n\nTools and/or tooling for software development are important, when well configured and they are easy to use IDEs can save developers considerable time in navigating, writing and refactoring code. Over the years IDEs have come and gone, some are proprietary others open source, many use a freemium model, some cease to be developed. Lindy’s Law proposes that the life expectancy of technology is proportional to its current age. To which end choosing a well established Free and Open Source Software IDE would be a good choice for investing time and effort in learning to use.\nAs we encourage research software to be free and open I believe the same should hold true of the tools we use as it gives us greater flexibility to develop and customise them to our own preferences and share our work back with the community that developed them.\nTo this end I have used Emacs for around twenty years and it’s incredibly flexible and extensible for writing and development. As part of the fellowship I plan to develop a basic literate configuration, for using Emacs as an IDE.\nThis would form the basis for a Carpentries style course on how to use Emacs as an IDE for code development, covering the use of various key packages within Emacs that make for an efficient workflow."
+  },
+  {
+    "objectID": "index.html#capable-research-communities",
+    "href": "index.html#capable-research-communities",
+    "title": "FOSS Tools for FOSS Development",
+    "section": "Capable Research Communities",
+    "text": "Capable Research Communities\n\n\n\nM-x Research\n\nActivities\n\nHackathon to revise and complete configuration and training material.\nDeliver material locally and nationally both in-person and on-line.\n\n\n\n\n\nM-x Research\n\n\n\n\nOver the years I’ve learnt through my involvement with different communities, and more recently my involvement in local community building in Sheffield and developing and delivering training material that they are key to guiding the development of inclusive and effective materials.\nIn the UK there is already an active academic Emacs community M-x Research. The community meets every fortnight to discuss aspects of Emacs usage and I aim to engage with this community to guide development of the training material seeking regular feedback on content, style and presentation.\nWhilst much development of training material and software can occur asynchronously and remotely there is huge benefit to meeting others in person and developing material in focused times, to which end I would look to use a proportion of the fellowship to organise a hackathon within the first six months of the fellowship to revise the material that has been developed by that point.\nSimilarly whilst training material can be delivered online as well as in-person my experience over the last few years has been that in-person is far more effective as you get better engagement and its easier to pick up when people are struggling with concepts or tasks. To which end the remaining funding would be used to deliver the training material both locally and nationally two to three times between 12-18 months out from receiving the fellowship."
+  },
+  {
+    "objectID": "index.html#dissemination",
+    "href": "index.html#dissemination",
+    "title": "FOSS Tools for FOSS Development",
+    "section": "Dissemination",
+    "text": "Dissemination\n\nPublish to Carpentries Incubator\nBlog about the process and invite feedback.\nPresent at EmacsConf 2025\nPropose to deliver at RSECon25\n\n\nTo help further grow and nurture the community around training for Emacs I would look to publish the training material to the Carpentries Incubator programme where wider contributions could then be made.\nI would look to make regular blog posts as development progresses and invite feedback.\nTo increase awareness of the resulting material I would also aim to present at both the annual EmacsConf, and the RSE Society’s annual Conference."
+  },
+  {
+    "objectID": "index.html#summary",
+    "href": "index.html#summary",
+    "title": "FOSS Tools for FOSS Development",
+    "section": "Summary",
+    "text": "Summary\n\nPassionate about FOSS software development and RSE good practices.\nExperience developing and delivering teaching material.\nExperience with community engagement and development.\nAdvocate for RSE good practices.\nKeen to share the knowledge and experience in collaboration with the Emacs community.\n\n\nI’m a keen advocate for FOSS software development and usage and believe that FOSS software offers developers the greatest freedom and development experience.\nI have experience in both creating and delivering practical teaching material as well as experience in community engagement and development from my activities over the last few years with the open research and R communities in Sheffield.\nI’m keen to share my knowledge and experience and in collaboration with the Emacs community develop and deliver valuable teaching material which help lessen the learning curve to using Emacs for software development."
+  },
+  {
+    "objectID": "index.html#theres-an-emacs-command-to-do-that.",
+    "href": "index.html#theres-an-emacs-command-to-do-that.",
+    "title": "FOSS Tools for FOSS Development",
+    "section": "There’s an Emacs Command to do that….",
+    "text": "There’s an Emacs Command to do that….\n\n\n\nXKCD 378\n\n\n\n\n\nSlides : ns-rse.github.io/foss-tools-for-foss-dev\n\n\n\n\n\n\n\n \n\n\nFOSS Tools for FOSS Development"
   }
 ]

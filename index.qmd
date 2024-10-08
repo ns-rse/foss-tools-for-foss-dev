@@ -16,7 +16,7 @@ format:
     chalkboard: true
     # embed-resources: true
     # standalone: true
-    header: Quarto RevealJS Template
+    header: FOSS Tools for FOSS Development
 revealjs-plugins:
   - confetti
 footer: "**Slides** : [**ns-rse.github.io/foss-tools-for-foss-dev**](https://ns-rse.github.io/foss-tools-for-foss-dev)"
@@ -30,13 +30,7 @@ filters:
   - reveal-header
 ---
 
-<!-- ## Scan This -->
-
-<!-- {{< qrcode <https://ns-rse.github.io/quarto-revealjs-template> qr1 width=400 height=400 >}} -->
-
-<!-- [ns-rse.github.io/quarto-revealjs-template](https://ns-rse.github.io/quarto-revealjs-template) -->
-
-## Who I Am Professinoally
+## Who I Am Professionally
 
 :::: {.columns}
 
@@ -44,317 +38,259 @@ filters:
 - **Research Software Engineer**, University of Sheffield (2½ years and counting)
 - **MSc** - Genetic Epidemiology
 - **Genetic Statistician**
-- Lead forOpen Scholarship
-  - **[Open Scholarship Community Sheffield][oscs]**
-  - **[SheffieldR][sheffieldR]**
-  - **[ReproducibiliTea][reproducibilitea]**
+- **Medical Statistician**
+- **Tech Startup**
 
 :::
 ::: {.column width="50%"}
-
+- Lead for...
+  - **[Open Scholarship Community Sheffield][oscs]**
+  - **[SheffieldR User Group][sheffieldR]**
+  - **[ReproducibiliTea Journal Club][reproducibilitea]**
+- Regular blogger
+  - [blog.nshephard.dev](https://blog.shephard.dev)
+  - [rse.shef.ac.uk/blog](https://shef.ac.uk/blog)
+- Open Research Champion
 :::
 
 ::::
 
 ::: {.notes}
-Speaker Notes can be added to each slide. **Formatting** can be used here too.
+Hi, my name is Neil Shephard and I'm a Research Software Engineer at the University of Sheffield. I've had a
+varied career path to this point working in statistical genetics, medical statistics and a few years in a tech startup
+company before returning to my current role in academia.
+
+Throughout my career I've had a passion for open and reproducible research and Free Open Source Software, teaching
+myself and advocating for literate programming and version control of code and was delighted to find this aligned well
+with the goals and aims of Research Software Engineering.
+
+Since becoming an RSE I have undertaken a number of initiatives that advocate and encourage good practice in both coding
+and more broadly for open research.
+
+I've set up the Open Scholarship Community Sheffield and successfully relaunched the Sheffield R User
+Group which meets roughly once a month to discuss and share work using the R programming language. I've also got the
+local ReproducibiliTea Journal Club back up and running in Sheffield, which also meets monthly to discuss aspects of open
+research.
+
+I think its important to share what I've learnt and therefore blog regularly on technical issues and this has led me to
+giving talks at University of Leeds and RSE Midlands.
 :::
 
 
-<!-- ## Quarto RevealJS Slides -->
+## What I Do Daily?
 
-<!-- This is a [Quarto](https://quarto.org/) template for creating [RevealJS](https://revealjs.com/) slides. -->
+:::: {.columns}
 
-<!-- The template can be used as a starting point for your own slides and includes a number of different layouts and examples -->
-<!-- of Markdown syntax, slide layout, links, embedding images and configuration options. -->
+::: {.column width="30%"}
+- Python and R package development.
+- Teach Git.
+- Develop training material.
+- JOSS Reviews.
 
-<!-- ## Formatting -->
+:::
 
-<!-- Quarto slides are written in [Markdown](https://quarto.org/docs/authoring/markdown-basics.html). -->
+::: {.column width="30%"}
 
-<!-- | Markdown Syntax                              | Output                                | -->
-<!-- |:---------------------------------------------|:--------------------------------------| -->
-<!-- | `*italics*`, `**bold**`, `***bolditalics***` | *italics*, **bold**, **bold italics** | -->
-<!-- | `superscript^1^`, `subscript~2~`             | superscript^1^, subscript~2~          | -->
-<!-- | `~~strikethrough~~`                          | ~~strikethrough~~                     | -->
-<!-- | ```code```                                   | `code`                                | -->
-<!-- | `[Quarto](https://quarto.org)`               | [Quarto](https://quarto.org)          | -->
+- **Projects**
+  - [TopoStats][topostats] ([Open Research Prize 2023][openresearch2023])
+  - [PGfinder][pgfinder]
+  - [Clarity Challenge][clarity]
 
+:::
 
-<!-- ## Columns and Lists -->
+::: {.column width="30%"}
 
-<!-- Slides can have columns and you can create [lists](https://quarto.org/docs/authoring/markdown-basics.html#lists) of -->
-<!-- different types. -->
+- **Teaching**
+  - Carpentries Instructor
+  - [Git & GitHub through GitKraken - From Zero to Hero][zerotohero]
+  - [The UNIX Shell][unix]
+  - [Git Collaboration][gitcollaboration]
+:::
 
-<!-- :::: {.columns} -->
+::::
 
-<!-- ::: {.column width="50%"} -->
-<!-- **ToDo** (code) -->
+::: {.notes}
+On a day-to-day basis as an RSE I work on helping research teams develop maintainable and open software that strives to
+adhere to the FAIR for Research Software principle and my main project, TopoStats which is software for processing
+Atomic Force Microscopy images won the Universities Open Research Prize in 2023.
 
-<!-- ```markdown -->
-<!-- + Learn Markdown -->
-<!-- + Create Quarto Slides -->
-<!-- + Publish on GitHub -->
-<!-- ``` -->
+I've undertaken The Carpentries Instructor Training and regularly deliver training on the basics of using Git to version
+control software and have delivered the Carpentries course on [The UNIX Shell][unix]
 
-<!-- ::: -->
+I really like the paedological style of The Carpentries and have developed an intermediary course on Git to follow on
+and give users a deeper understanding of Git.
 
-<!-- ::: {.column width="50%"} -->
-<!-- **ToDo** (Rendered) -->
+With this in mind I spend a lot of time writing code and appreciate how important it is to have an effective development
+environment. I would like to take the opportunity that the SSI Fellowship affords to share my experience of development
+environments with others and support people in learning how to craft something that suits their needs.
+:::
 
-<!-- + Learn Markdown -->
-<!-- + Create Quarto Slides -->
-<!-- + Publish on GitHub -->
+## Fellowship Overview
 
-<!-- ::: -->
-<!-- :::: -->
+:::: {.columns}
 
-<!-- ::: {.notes} -->
-<!-- Slides can have columns and we can create unordered lists. -->
-<!-- ::: -->
+::: {.column width=50%}
 
-<!-- ## Columns and Lists (cont.) -->
+- Tools/tooling >> productivity.
+- Emacs as an IDE (Free Open Source Software).
+- Develop basic literate configuration.
+- Develop and deliver Carpentries style course.
 
-<!-- :::: {.columns} -->
+:::
 
-<!-- ::: {.column width="50%"} -->
-<!-- **Ordered** (code) -->
+::: {.column width=50%}
 
-<!-- ```markdown -->
-<!-- 1. A comes before -->
-<!-- 2. B which is followed by -->
-<!-- 3. C -->
-<!-- ``` -->
+![[Emacs][emacs]](img/Emacs_512.png)
+:::
 
-<!-- ::: -->
+::::
+::: {.notes}
+Tools and/or tooling for software development are important, when well configured and they are  easy to use IDEs can
+save developers considerable time in navigating, writing and refactoring code. Over the years IDEs have come and gone,
+some are proprietary others open source, many use a freemium model, some cease to be developed. [Lindy's Law](lindyslaw)
+proposes that the life expectancy of technology is proportional to its current age. To which end choosing a well
+established Free and Open Source Software IDE would be a good choice for investing time and effort in learning
+to use.
 
-<!-- ::: {.column width="50%"} -->
-<!-- **Ordered** (Rendered) -->
+As we encourage research software to be free and open I believe the same should hold true of the tools we
+use as it gives us greater flexibility to develop and customise them to our own preferences and share our work back with
+the community that developed them.
 
-<!-- 1. A comes before -->
-<!-- 2. B which is followed by -->
-<!-- 3. C -->
+To this end I have used Emacs for around twenty years and it's incredibly flexible and extensible for
+writing and development. As part of the fellowship I plan to develop a basic literate configuration, for using Emacs as
+an IDE.
 
-<!-- ::: -->
-<!-- :::: -->
+This would form the basis for a Carpentries style course on how to use Emacs as an IDE for
+code development, covering the use of various key packages within Emacs that make for an efficient workflow.
+:::
 
-<!-- ::: {.notes} -->
-<!-- Or ordered lists. -->
-<!-- ::: -->
+<!-- ## Literate Configuration -->
 
-<!-- ## Tables -->
+<!-- Derive a [literate configuration][literateconfig] -->
 
-<!-- You can manually add [tables](https://quarto.org/docs/authoring/markdown-basics.html#tables). -->
-
-<!-- :::: {.columns} -->
-
-<!-- ::: {.column width="50%"} -->
-
-<!-- ```markdown -->
-<!-- | Right | Left | Default | Center | -->
-<!-- |------:|:-----|---------|:------:| -->
-<!-- |   12  |  12  |    12   |    12  | -->
-<!-- |  123  |  123 |   123   |   123  | -->
-<!-- |    1  |    1 |     1   |     1  | -->
-<!-- ``` -->
-
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-
-<!-- | Right | Left | Default | Center | -->
-<!-- |------:|:-----|---------|:------:| -->
-<!-- |   12  |  12  |    12   |    12  | -->
-<!-- |  123  |  123 |   123   |   123  | -->
-<!-- |    1  |    1 |     1   |     1  | -->
-
-<!-- ::: -->
-<!-- :::: -->
+<!-- - Language Server Protocol mode for Python, R, Markdown. -->
+<!-- - [Magit][magit] for Git. -->
+<!-- - [Emacs Speaks Statistics (ESS)][ess] for R/Stata/SAS -->
+<!-- - Basic Org-mode configuration. -->
 
 <!-- ::: {.notes} -->
-<!-- Tables can be added, but there is a better way to include these programatically -->
+<!-- The literate configuration would cover several areas. -->
+
+<!-- Firstly, setting up and configuring Emacs to work with Language Server Protocol for common languages. These are the -->
+<!-- programmes that are separate to and sit behind the smart features of code navigation and editing. Configuring this for -->
+<!-- Python, R and Markdown will provide a starting point for users. -->
+
+<!-- As software development requires version control being able to perform all tasks directly from your IDE reduces -->
+<!-- friction. Emacs has a very well developed Git client called [Magit][magit] which makes it very easy to perform all -->
+<!-- tasks. -->
+
+<!-- In addition to Language Server Protocol the [Emacs Speaks Statistics (ESS)][ess] would be covered as it provides an -->
+<!-- excellent interface to work with statistical software such as R. -->
+
+<!-- Finally the basics of using Emacs' native literate language Org mode would be covered. -->
 <!-- ::: -->
 
-<!-- ## Equations -->
+## Capable Research Communities
 
-<!-- | Markdown Syntax                    | Output                       | -->
-<!-- |:----------------------------------:|:-----------------------------| -->
-<!-- | `inline math $E = mc^{2}$`         | inline math $E = mc^{2}$     | -->
-<!-- | ```display math: $$E = mc^{2}$$``` | display math: $$E = mc^{2}$$ | -->
+:::: {.columns}
 
-<!-- ::: {.notes} -->
-<!-- You can write equations if you need to. -->
-<!-- ::: -->
+::: {.column width=50%}
 
-<!-- ## Embed Images -->
+- [M-x Research][mxresearch]
 
-<!-- [Figures](https://quarto.org/docs/authoring/figures.html) can be embeded using a URL and resized. -->
+### Activities
 
-<!-- ```markdown -->
-<!-- ![Relaxing in the Julian Alps](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700} -->
-<!-- ``` -->
+- Hackathon to revise and complete configuration and training material.
+- Deliver material locally and nationally both in-person and on-line.
 
-<!-- ![Relaxing in the Julian Alps](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700} -->
+:::
 
-<!-- ::: {.notes} -->
-<!-- ::: -->
+::: {.column width=50%}
 
-<!-- ## Embed Images (*cont.*) -->
+![[M-x Research][mxresearch]](img/MxResearch.png)
+:::
 
-<!-- You can also include images locally.^[Make sure to `git add` them otherwise they won't publish] and make them hyperlinks. -->
+::::
 
-<!-- ```markdown -->
-<!-- ![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300} -->
-<!-- ``` -->
+::: {.notes}
+Over the years I've learnt through my involvement with different communities, and more recently my involvement in local
+community building in Sheffield and developing and delivering training material that they are key to guiding the
+development of inclusive and effective materials.
 
-<!-- ![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300} -->
+In the UK there is already an active academic Emacs community `M-x Research`. The community meets every fortnight to
+discuss aspects of Emacs usage and I aim to engage with this community to guide development of the training material
+seeking regular feedback on content, style and presentation.
 
-<!-- ::: {.notes} -->
-<!-- ::: -->
+Whilst much development of training material and software can occur asynchronously and remotely there is huge benefit to
+meeting others in person and developing material in focused times, to which end I would look to use a proportion of the
+fellowship to organise a hackathon within the first six months of the fellowship to revise the material that has been
+developed by that point.
 
-<!-- ## R code -->
+Similarly whilst training material can be delivered online as well as in-person my experience over the last few years
+has been that in-person is far more effective as you get better engagement and its easier to pick up when people are
+struggling with concepts or tasks. To which end the remaining funding would be used to deliver the training material
+both locally and nationally two to three times between 12-18 months out from receiving the fellowship.
 
-<!-- :::: {.columns} -->
+:::
 
-<!-- ::: {.column width="50%"} -->
-<!-- Include [R code and output](https://quarto.org/docs/computations/r.html) with automatic referencing (see @fig-airquality2) -->
 
-<!-- ```{r} -->
-<!-- #| label: fig-airquality -->
-<!-- #| fig-cap: "Temperature and ozone level." -->
-<!-- #| warning: false -->
-<!-- #| eval: false -->
-<!-- #| echo: true -->
-<!-- library(ggplot2) -->
+## Dissemination
 
-<!-- ggplot(airquality, aes(Temp, Ozone)) + -->
-<!--   geom_point() + -->
-<!--   geom_smooth(method = "loess") -->
-<!-- ``` -->
+- Publish to Carpentries Incubator
+- Blog about the process and invite feedback.
+- Present at EmacsConf 2025
+- Propose to deliver at RSECon25
 
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
+::: {.notes}
+To help further grow and nurture the community around training for Emacs I would look to publish the training material
+to the [Carpentries Incubator][incubator] programme where wider contributions could then be made.
 
-<!-- ```{r} -->
-<!-- #| label: fig-airquality2 -->
-<!-- #| fig-cap: "Temperature and ozone level." -->
-<!-- #| warning: false -->
+I would look to make regular blog posts as development progresses and invite feedback.
 
-<!-- library(ggplot2) -->
+To increase awareness of the resulting material I would also aim to present at both the annual EmacsConf, and the RSE
+Society's annual Conference.
+:::
 
-<!-- ggplot(airquality, aes(Temp, Ozone)) + -->
-<!--   geom_point() + -->
-<!--   geom_smooth(method = "loess") -->
-<!-- ``` -->
+## Summary
 
-<!-- ::: -->
+- Passionate about FOSS software development and RSE good practices.
+- Experience developing and delivering teaching material.
+- Experience with community engagement and development.
+- Advocate for RSE good practices.
+- Keen to share the knowledge and experience in collaboration with the Emacs community.
 
-<!-- :::: -->
+::: {.notes}
+I'm a keen advocate for FOSS software development and usage and believe that FOSS software offers developers the
+greatest freedom and development experience.
 
-<!-- ::: {.notes} -->
-<!-- [R](https://www.r-project.org/) code can be embeded and executed to produce tables and figures. -->
-<!-- ::: -->
+I have experience in both creating and delivering practical teaching material as well as experience in community
+engagement and development from my activities over the last few years with the open research and R communities in
+Sheffield.
 
-<!-- ## Python code -->
+I'm keen to share my knowledge and experience and in collaboration with the Emacs community develop and deliver valuable
+teaching material which help lessen the learning curve to using Emacs for software development.
 
-<!-- ::: {.column width="50%"} -->
-<!-- Include [Python code and output](https://quarto.org/docs/computations/python.html) too -->
+:::
 
-<!-- ```{.python} -->
-<!-- #| label: fig-polar -->
-<!-- #| fig-cap: "A line plot on a polar axis." -->
-<!-- #| warning: false -->
-<!-- #| eval: false -->
-<!-- #| echo: true -->
-<!-- import numpy as np -->
-<!-- import matplotlib.pyplot as plt -->
+## There's an Emacs Command to do that....
 
-<!-- r = np.arange(0, 2, 0.01) -->
-<!-- theta = 2 * np.pi * r -->
-<!-- fig, ax = plt.subplots( -->
-<!--   subplot_kw = {'projection': 'polar'} -->
-<!-- ) -->
-<!-- ax.plot(theta, r) -->
-<!-- ax.set_rticks([0.5, 1, 1.5, 2]) -->
-<!-- ax.grid(True) -->
-<!-- plt.show() -->
-<!-- ``` -->
+![[XKCD 378][xkcd]](https://imgs.xkcd.com/comics/real_programmers.png)
 
-<!-- ::: -->
-<!-- ::: {.column width="50%"} -->
-
-<!-- ```{.python} -->
-<!-- #| label: fig-polar2 -->
-<!-- #| fig-cap: "A line plot on a polar axis." -->
-<!-- #| warning: false -->
-<!-- #| eval: true -->
-<!-- #| echo: true -->
-<!-- import numpy as np -->
-<!-- import matplotlib.pyplot as plt -->
-
-<!-- r = np.arange(0, 2, 0.01) -->
-<!-- theta = 2 * np.pi * r -->
-<!-- fig, ax = plt.subplots( -->
-<!--   subplot_kw = {'projection': 'polar'} -->
-<!-- ) -->
-<!-- ax.plot(theta, r) -->
-<!-- ax.set_rticks([0.5, 1, 1.5, 2]) -->
-<!-- ax.grid(True) -->
-<!-- plt.show() -->
-<!-- ``` -->
-
-<!-- ::: -->
-<!-- :::: -->
-
-<!-- ::: {.notes} -->
-<!-- You can include [Python](https://www.python.org) code too -->
-<!-- ::: -->
-
-<!-- ## General code -->
-
-<!-- There are lots of options for showing, hiding, highlighting [code -->
-<!-- blocks](https://quarto.org/docs/presentations/revealjs/#code-blocks). -->
-
-<!-- ```{.python code-line-numbers="6-8"} -->
-<!-- #| eval: true -->
-<!-- #| echo: true -->
-<!-- import numpy as np -->
-<!-- import matplotlib.pyplot as plt -->
-
-<!-- r = np.arange(0, 2, 0.01) -->
-<!-- theta = 2 * np.pi * r -->
-<!-- fig, ax = plt.subplots(subplot_kw={'projection': 'polar'}) -->
-<!-- ax.plot(theta, r) -->
-<!-- ax.set_rticks([0.5, 1, 1.5, 2]) -->
-<!-- ax.grid(True) -->
-<!-- plt.show() -->
-<!-- ``` -->
-
-<!-- ## The Documentation is Good -->
-
-<!-- The official documentation is really good. -->
-
-<!-- + [Get Started](https://quarto.org/docs/get-started/) -->
-<!-- + [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html) -->
-<!-- + [Guide](https://quarto.org/docs/guide/) with many sections on [Presentations](https://quarto.org/docs/presentations/) -->
-<!--   [Website](https://quarto.org/docs/websites/), [Books](https://quarto.org/docs/books/) and more. -->
-
-<!-- ## Extensions -->
-
-<!-- :::: {.columns} -->
-
-<!-- ::: {.column width="70%"} -->
-<!-- [Extensions](https://quarto.org/docs/extensions/) for themes and other functionality -->
-<!-- (press `c` whilst viewing these slides :wink: ). -->
-
-<!-- + [Shortcode/Filter](https://quarto.org/docs/extensions/listing-filters.html) -->
-<!-- + [Journal Articles](https://quarto.org/docs/extensions/listing-journals.html) -->
-<!-- + [Custom Formats](https://quarto.org/docs/extensions/listing-formats.html) -->
-<!-- + [**RevealJS**](https://quarto.org/docs/extensions/listing-revealjs.html) -->
-<!-- + [awesome-quarto](https://github.com/mcanouil/awesome-quarto) - Quarto tools & examples -->
-
-<!-- ::: -->
-<!-- ::: {.column width=30%} -->
-<!-- This Template... -->
-<!-- {{< qrcode <https://ns-rse.github.io/quarto-revealjs-template> qr2 width=400 height=400 >}} -->
-<!-- ::: -->
-<!-- :::: -->
+[clarity]: https://github.com/claritychallenge/clarity/
+[emacs]: https://www.gnu.org/software/emacs/
+[ess]: https://ess.r-project.org/
+[gitcollaboration]: https://blog.nshephard.dev/git-collaboration/
+[incubator]: https://carpentries-incubator.org/
+[lindyslaw]: https://en.wikipedia.org/wiki/Lindy_effect
+[literateconfig]: https://leanpub.com/lit-config/read
+[magit]: https://magit.vc/
+[mxresearch]: https://m-x-research.github.io/
+[openresearch2023]: https://www.sheffield.ac.uk/library/research/open-research-prize-2023
+[oscs]: https://osc-international.com/osc-sheffield/
+[pgfinder]: https://github.com/Mesnage-Org/pgfinder
+[reproducibilitea]: https://reproducibilitea-sheffield.github.io/
+[sheffieldR]: https://sheffieldr.github.io/
+[topostats]: https://github.com/AFM-SPM/TopoStats
+[unix]: https://swcarpentry.github.io/shell-novice/
+[xkcd]: https://xkcd.com/378/
+[zerotohero]: https://srse-git-github-zero2hero.netlify.app/
